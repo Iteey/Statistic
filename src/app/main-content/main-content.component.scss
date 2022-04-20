@@ -1,0 +1,69 @@
+//TODO: Почистить лишние стили
+
+.MainInfoContainer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181818;
+  }
+  
+  .MainInfoContainer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181818;
+  }
+  .MainInfoContent {
+    background: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: left;
+  }
+  .MainInfoContainer span {
+    display: flex;
+    margin-bottom: 4px;
+  }
+  
+  .value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181818;
+  }
+  .property {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181818;
+  }
+  .active-on-page-nav{
+    background: #181818 !important;
+    color:white !important;
+  }
+  .on-page-nav{
+    box-shadow:0 0 0;
+    padding:0ch !important;
+  }
+  .on-page-nav a{
+    background-color:white;
+    padding: 8px 24px !important;
+    margin-left:0.2ch !important;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .on-page-nav a:hover{
+    background-color:grey;
+  }
+  @media only screen and (max-width: 991px) {
+    .on-page-nav{
+      background-color:white !important;
+      border-bottom: 1px solid black;
+      border-radius:5px 5px 0px 0px;
+    }
+    .on-page-nav a {
+      border-radius:0px;
+      height:100%;
+    }
+  }

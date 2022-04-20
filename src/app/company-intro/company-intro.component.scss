@@ -1,0 +1,59 @@
+.company-introducing {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1d1d1f;
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+  }
+  .slash-delimiter {
+    color: #6e6e73;
+    font-size: 12px;
+  }
+  .main-content-header-links {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .short-info {
+    display: flex;
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    color: #1d1d1f;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .short-info span {
+    display: flex;
+  }
+  .short-info span i {
+    margin-right: 5px;
+  }
+  .main-header {
+    /* Body 12px */
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  
+    /* Light blue */
+  
+    color: #1572d0 !important;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+
+  
