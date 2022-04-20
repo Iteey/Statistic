@@ -1,0 +1,20 @@
+.contentbox-left {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height:30ch;
+    max-width:65ch;
+  }
+  .contentbox-right {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height:30ch;
+    max-width:65ch;
+  }
+  .MainContent{
+      margin-left:0ch;
+      }
+      @media only screen and (max-width: 1400px) {
+        .contentbox-right {
+          margin-left:0ch;
+        }
+      }

@@ -8,6 +8,8 @@ import { TopNavComponent } from './top-nav/top-nav.component';
 import { CompanyIntroComponent } from './company-intro/company-intro.component';
 import { CompanyNavComponent } from './company-nav/company-nav.component';
 import { MainContentComponent } from './main-content/main-content.component';
+import { ContentComponent } from './content/content.component';
+import { ContentChartComponent } from './content-chart/content-chart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { MainContentComponent } from './main-content/main-content.component';
     TopNavComponent,
     CompanyIntroComponent,
     CompanyNavComponent,
-    MainContentComponent
+    MainContentComponent,
+    ContentComponent,
+    ContentChartComponent
   ],
   imports: [
     BrowserModule,
